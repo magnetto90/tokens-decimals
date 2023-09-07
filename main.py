@@ -35,7 +35,7 @@ for coin_id in coin_ids:
 
         # Compare decimals on other platforms with Ethereum
         for platform, details in data["detail_platforms"].items():
-            if platform != "ethereum" and platform != "" and details["decimal_place"] != ethereum_decimals and details["decimal_place"] != "None":
+            if platform != "ethereum" and platform != "" and details["decimal_place"] != ethereum_decimals and f"{details['decimal_place']}" != "None":
                 other_platform_decimals.append(
                     f"{platform}: **{details['decimal_place']}**"
                 )
