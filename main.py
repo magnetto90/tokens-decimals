@@ -12,7 +12,7 @@ coin_ids.sort()
 
 # Initialize the Markdown table
 markdown_table = "# EVM Tokens Decimals List\n"
-markdown_table += "| Name | Decimals (Ethereum) | Decimals (Other Platforms) |\n"
+markdown_table += "| Name | Original Decimals | Decimals (Other Platforms) |\n"
 markdown_table += "| ---- | ------------------- | ------------------------- |\n"
 
 # Delay between API calls (in seconds)
