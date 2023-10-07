@@ -3,7 +3,6 @@
 | ---- | ------------------- | ------------------------- |
 | Binance USD | 18 | aptos: **8**
 |||astar: **6** |
-| Dai | 18 | cosmos: **0** |
 | Tether | 6 | oasys: **18**
 |||kardiachain: **18**
 |||binance-smart-chain: **18**
@@ -19,7 +18,6 @@
 |||kucoin-community-chain: **18**
 |||telos: **18**
 |||conflux: **18**
-|||cosmos: **0**
 |||bitgert: **18** |
 | Wrapped Bitcoin | 8 | sora: **18**
 |||celo: **18**
